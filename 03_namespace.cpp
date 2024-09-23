@@ -8,7 +8,7 @@ int main(){
 	// ****** way one
 	//cout << "hey there";
 	
-	// ****** way two
+	// ****** way two (Omitting Namespace)
 	std::cout << "smileeee :) ";
 
 	return 0;
