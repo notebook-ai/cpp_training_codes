@@ -1,6 +1,6 @@
 #include <iostream>
-#include <string>
-#include <vector>
+//#include <string>
+//#include <vector>
 
 using namespace std;
 
@@ -13,22 +13,23 @@ int main(){
 		"bool - stores values with two states: true or false";
 	cout << text << endl;
 	
-	cout << "\n --- now you can define any variable ---" << endl; 
-	
-	int num = 15; 
-	// num = 19 ;
-	cout << num << endl;
-	
-	double my_dbl = 5.47;
-	cout << my_dbl << endl;
-	
-	char character = 'f';
-	cout << character << endl;
-	
-	bool res_true = true;
-	bool res_false = false;
-	cout << res_true << endl;
-	cout << res_false << endl;
+//	
+//	cout << "\n --- now you can define any variable ---" << endl; 
+//	
+//	int num = 15; 
+//	// num = 19 ;
+//	cout << num << endl;
+//	
+//	double my_dbl = 5.47;
+//	cout << my_dbl << endl;
+//	
+//	char character = 'f';
+//	cout << character << endl;
+//	
+//	bool res_true = true;
+//	bool res_false = false;
+//	cout << res_true << endl;
+//	cout << res_false << endl;
 	
 	
 		
