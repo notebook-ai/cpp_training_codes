@@ -11,8 +11,10 @@ int main(){
 	cout << "you'r family:";
 	cin >> family;
 	
-	fullname = name + " "+ family;
+//	fullname = name + " "+ family;
+	fullname = name.append(family);
 	cout << "you'r fullname is: " << fullname;
+
 	return 0;
 	
 	
