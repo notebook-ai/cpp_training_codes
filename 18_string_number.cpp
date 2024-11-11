@@ -2,6 +2,7 @@
 #include <string>
 #include <stdlib.h> // convert function such as stoi OR atoi
 #include <sstream>
+#include <typeinfo>
 using namespace std;
 
 int main(){
@@ -38,20 +39,22 @@ int main(){
     cout << "The value of a: " << a << endl;
     // --- way five --------------------------------------------------------------
     
-    string str_number = "123456789";
+    string str_number = "54";
     int number = 0;
     // Traversing string
     for (char c : str_number) {
+//    	cout << typeid(c).name() << endl;
         // Checking if the element is number
         if (c >= '0' && c <= '9') {
-//            number = number * 10 + (c - '0');
-            number = number * 10 + (c);
+//            number = number * 10 + (c);
+            number = number * 10 + (c - '0');
         }
     }
     cout << number << endl;
     
     // ------------------------------------------------------------------------------
-//    cout << '5' - '0' << endl;
+    cout << '5' - '0' << endl;
+    cout << '4' - '0' << endl;
 //    cout << '9' + '1' << endl;
 //    cout << "5" - "4" << endl;
     
