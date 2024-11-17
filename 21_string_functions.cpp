@@ -17,10 +17,26 @@ int main(){
 	cout << "Returns the index (position) of the first occurrence of a string or character: " << text.find("f") << endl;
 	cout << "Returns the index (position) of the last occurrence of a string or character: " << text.rfind("e") << endl;
 	
-//	cout << "Replaces a part of a string with another string" << text.replace("") << endl;
-//	cout << "Inserts a string at a specified index (position): " << text.insert() << endl;
-//	cout << "Removes characters from a string: " << text.erase() << endl;
-//	cout << "Compares two strings: " << text.compare() << endl;
-		
+	cout << "Replaces a part of a string with another string: " << text.replace(0, 0, "the ") << endl;
+//	str1.replace(pos, n, m, c)                             // Replace with character
+//	str1.replace(pos, n, str2)                            // Replace with string
+//	str1.replace(pos1, n, str2, pos2,m)                  // Replace with substring
+//	str1.replace(first, last, n, c);                    // Replace Character
+//	str1.replace(first, last, str2)                    // Replace String
+//	str1.replace (first, last, str2_first, str2_last);// Replace Substring
+
+
+	cout << "Inserts a string at a specified index (position): " << text.insert(0, "> ") << endl;
+	cout << "\nAlias of length(). Returns the length of a string: " << text.size() << endl;
+	
+	string msg = "The smile";
+	cout << "After Removes String: " << msg << endl;
+	msg.clear();
+	if (msg.empty()){
+		cout << "result Clear function: msg string is empty." << endl;
+	} else {
+		cout << "result clear function: msg string is Full." << endl;
+	}
+	
 	return 0;
 }
